@@ -24,15 +24,5 @@ Auf der Suche nach einem dualen Studienplatz **Software Engineering in Würzburg
 
 ---
 
-### Stack
-
-Die Trennung ist Absicht. Ich schreibe lieber hin, wo ich stehe, als im Gespräch aufzufliegen.
-
-**Kann ich erklären** — `Python` `HTML/CSS` `Git` `Vercel` `Railway`
-**Im Projekt eingesetzt** — `TypeScript` `Next.js` `React` `Tailwind` `SQL` `PostgreSQL` `FastAPI` `NextAuth` `Cloudflare Workers` `Durable Objects` `KV`
-**Davor gelernt** — `C#` `C++`, vor der KI-Zeit
-
----
-
 
 📮 [seidensal.julian@gmail.com](mailto:seidensal.julian@gmail.com)
