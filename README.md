@@ -36,7 +36,7 @@ keine Latenz kostet.
 
 Live unter [kairotokens.cc](https://kairotokens.cc) · Quellcode nicht öffentlich.
 
-**[RainSignal](https://github.com/sdnwrd/rainsignal)** · Python
+**[PolyWeather](https://github.com/sdnwrd/polyweather)** · Python
 Vergleicht Temperaturmärkte auf Polymarket mit der Prognose des US-Wetterdiensts und meldet per
 Telegram, wenn ein Kurs deutlich abweicht. Die Punktprognose wird zu einer Verteilung, damit sich
 einzelne Temperaturbereiche überhaupt bewerten lassen. Handelt bewusst nicht selbst.
