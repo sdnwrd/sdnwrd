@@ -34,7 +34,5 @@ Die Trennung ist Absicht. Ich schreibe lieber hin, wo ich stehe, als im Gespräc
 
 ---
 
-Mich interessiert weniger die Oberfläche als das, was darunter passieren muss: Konsistenz beim
-Abrechnen, wo Geheimnisse liegen dürfen, was das System macht, wenn eine fremde API nicht antwortet.
 
 📮 [seidensal.julian@gmail.com](mailto:seidensal.julian@gmail.com)
