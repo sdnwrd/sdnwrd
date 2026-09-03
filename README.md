@@ -21,7 +21,7 @@ verschlüsselt abgelegt, Nutzertrennung in der Datenbankabfrage statt nur in der
 > Nutzungsbedingungen von Instagram. Das Projekt lief privat auf meinem eigenen Konto.
 > Technisch war es meine größte Lernstrecke, deshalb steht es hier, mit dieser Einschränkung dazu.
 
-**Kairotokens** · Cloudflare Workers · Durable Objects · KV
+**[Kairotokens](https://kairotokens.cc)** · Cloudflare Workers · Durable Objects · KV
 Claude Code weiterbenutzen, nur günstiger. Der Worker verhält sich für den Client exakt wie die
 Anthropic-API, leitet die Anfragen aber an DeepSeek weiter: gleicher Editor, gleicher Workflow,
 ein Bruchteil der Kosten. Zwei Umgebungsvariablen ändern, sonst bleibt alles wie es war.
@@ -41,11 +41,11 @@ Vergleicht Temperaturmärkte auf Polymarket mit der Prognose des US-Wetterdienst
 Telegram, wenn ein Kurs deutlich abweicht. Die Punktprognose wird zu einer Verteilung, damit sich
 einzelne Temperaturbereiche überhaupt bewerten lassen. Handelt bewusst nicht selbst.
 
-**[rashidabdu](https://github.com/sdnwrd/rashidabdu)** · Next.js
+**[rashidabdu](https://rashidabdu.com)** · Next.js
 Website für einen jungen Unternehmer, als Auftrag gebaut und verkauft. Erster Kunde, erste echte
 Deadline, erste Rechtstexte. Live unter [rashidabdu.com](https://rashidabdu.com).
 
-**[Seven](https://github.com/sdnwrd/Seven)** und Chichi · React · Vite · Next.js
+**[SevenWebSolutions](https://github.com/sdnwrd/Seven)** und **[ChiChi](https://github.com/sdnwrd/chichi-website)** · React · Vite · Next.js
 Lernprojekte, ehrlich als solche. Entstanden, um Routing, Animationen und Komponentenaufbau zu
 üben. Kein Kunde, kein Produkt, aber die Grundlage für alles danach.
 
