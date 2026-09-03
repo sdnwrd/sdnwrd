@@ -58,11 +58,11 @@ Die Aufteilung ist Absicht. Ich schreibe lieber hin, wo ich stehe, als im Gespr�
 **Kann ich erklären**
 `Python` `HTML/CSS` `Git` `Vercel` `Railway`
 
-**Im Projekt eingesetzt** — läuft, aber ich müsste vieles nachschlagen
+**Im Projekt eingesetzt** - läuft, aber ich müsste vieles nachschlagen
 `TypeScript` `Next.js` `React` `Tailwind CSS` `SQL` `PostgreSQL` `FastAPI` `NextAuth`
 `Cloudflare Workers` `Durable Objects` `KV`
 
-**Davor gelernt** — vor der KI-Zeit, mit C# und C++
+**Davor gelernt** - vor der KI-Zeit, mit C# und C++
 Ein Programm, das den Bildschirm in Echtzeit ausliest und auf Farbmuster reagiert, und eines, das
 sich in einen laufenden Spielprozess einklinkt. Spielereien, aber dort habe ich zum ersten Mal
 gesehen, wie ein Programm mit Prozessen und Speicher umgeht.
