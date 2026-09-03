@@ -1,9 +1,8 @@
-
 # Julian Seidensal
 
-18, aus Fulda. Ich baue eigene Produkte, keine Übungsaufgaben: ein API-Gateway, das jede Anfrage
-gegen ein Guthaben abrechnet, eine Analytics-App mit verschlüsselten Sessions, eine Website, die
-ich verkauft habe.
+18, aus Fulda. Ich baue eigene Produkte, keine Übungsaufgaben: einen Proxy, mit dem Claude Code
+über ein deutlich günstigeres Modell läuft, eine Instagram Analytics-App mit verschlüsselten Sessions, eine
+Website, die ich verkauft habe.
 
 Aktuell suche ich einen **dualen Studienplatz Software Engineering in Würzburg**.
 
@@ -23,10 +22,18 @@ verschlüsselt abgelegt, Nutzertrennung in der Datenbankabfrage statt nur in der
 > Technisch war es meine größte Lernstrecke, deshalb steht es hier, mit dieser Einschränkung dazu.
 
 **Kairotokens** · Cloudflare Workers · Durable Objects · KV
-API-Gateway mit Prepaid-Abrechnung pro Anfrage. Schlüsselprüfung über KV, Guthaben über Durable
-Objects, weil zwei gleichzeitige Anfragen sonst denselben veralteten Stand lesen und beide abbuchen
-könnten. Verrechnet wird erst nach der Antwort über `waitUntil()`, damit die Buchhaltung keine
-Latenz kostet. Streaming läuft per `TransformStream` unverändert durch.
+Claude Code weiterbenutzen, nur günstiger. Der Worker verhält sich für den Client exakt wie die
+Anthropic-API, leitet die Anfragen aber an DeepSeek weiter: gleicher Editor, gleicher Workflow,
+ein Bruchteil der Kosten. Zwei Umgebungsvariablen ändern, sonst bleibt alles wie es war.
+
+Damit das trägt: das Modell wird immer überschrieben statt durchgereicht, Streaming läuft per
+`TransformStream` unverändert durch, Felder die der Upstream nicht kennt werden entfernt statt mit
+einem Fehler quittiert, und Fehler kommen in der Anthropic-Form mit Originalstatus zurück.
+Verkauft wird über eigene Schlüssel mit Prepaid-Guthaben: Schlüsselprüfung über KV, Guthaben über
+Durable Objects, weil zwei gleichzeitige Anfragen sonst denselben veralteten Stand lesen und beide
+abbuchen könnten. Verrechnet wird erst nach der Antwort über `waitUntil()`, damit die Buchhaltung
+keine Latenz kostet.
+
 Live unter [kairotokens.cc](https://kairotokens.cc) · Quellcode nicht öffentlich.
 
 **[RainSignal](https://github.com/sdnwrd/rainsignal)** · Python
@@ -58,7 +65,7 @@ Die Aufteilung ist Absicht. Ich schreibe lieber hin, wo ich stehe, als im Gespr�
 **Davor gelernt** — vor der KI-Zeit, mit C# und C++
 Ein Programm, das den Bildschirm in Echtzeit ausliest und auf Farbmuster reagiert, und eines, das
 sich in einen laufenden Spielprozess einklinkt. Spielereien, aber dort habe ich zum ersten Mal
-gesehen, wie ein Programm mit Prozessen, Speicher und Bildwiederholraten umgeht.
+gesehen, wie ein Programm mit Prozessen und Speicher umgeht.
 
 ---
 
@@ -66,7 +73,7 @@ gesehen, wie ein Programm mit Prozessen, Speicher und Bildwiederholraten umgeht.
 
 Mich interessiert weniger die Oberfläche als das, was passieren muss, damit sie funktioniert:
 Konsistenz beim Abrechnen, wo Geheimnisse liegen dürfen, was das System macht, wenn eine fremde
-API nicht antwortet. Ich lese lieber die Doku als ein Tutorial.
+API nicht antwortet. 
 
 Dazu gehört, mich laufend mit KI zu beschäftigen. Sie verändert diese Branche gerade grundlegend,
 und wer sich nicht damit auseinandersetzt, arbeitet in wenigen Jahren an einem überholten Stand.
