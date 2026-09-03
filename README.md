@@ -20,7 +20,7 @@ Auf der Suche nach einem dualen Studienplatz **Software Engineering in Würzburg
 | **[Instalytics](https://github.com/sdnwrd/instalytics)** | Instagram-Follower über die Zeit verfolgen. Eigenes Backend, Sessions mit AES-256-GCM verschlüsselt. Bewusst nie öffentlich gestartet, weil es gegen Instagrams Nutzungsbedingungen verstößt. | Next.js · FastAPI · Postgres |
 | **[PolyWeather](https://github.com/sdnwrd/PolyWeather)** | Bewertet Temperaturmärkte auf Polymarket gegen die Prognose des US-Wetterdiensts und meldet Abweichungen per Telegram. Handelt bewusst nicht selbst. | Python |
 | **rashidabdu.com** | Website für einen jungen Unternehmer, als Auftrag gebaut und verkauft. | [Live](https://rashidabdu.com) |
-| **[Seven](https://github.com/sdnwrd/Seven)** · **[Chichi](https://github.com/sdnwrd/chichi-website)** | Lernprojekte, ehrlich als solche. | React · Next.js |
+| **[Seven](https://github.com/sdnwrd/Seven)** · **[Chichi](https://github.com/sdnwrd/chichi-website)** | Lernprojekte, Webdesign | React · Next.js |
 
 ---
 
