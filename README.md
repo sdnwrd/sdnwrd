@@ -25,4 +25,4 @@ Auf der Suche nach einem dualen Studienplatz **Software Engineering in Würzburg
 ---
 
 
-📮 [seidensal.julian@gmail.com](mailto:seidensal.julian@gmail.com)
+
