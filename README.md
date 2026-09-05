@@ -1,7 +1,7 @@
 <h1>Julian Seidensal</h1>
 
 **18, aus Fulda. Ich baue Software, die benutzt wird.**
-Auf der Suche nach einem dualen Studienplatz **Software Engineering in Würzburg**.
+Auf der Suche nach einem dualen Studienplatz **Software Engineering**.
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-2d2b26?style=flat-square&logo=typescript&logoColor=b34a1c)
 ![Python](https://img.shields.io/badge/Python-2d2b26?style=flat-square&logo=python&logoColor=b34a1c)
